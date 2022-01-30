@@ -31,6 +31,11 @@ public class Operacion {
 		int mult= value + value2;
 		System.out.println("Multiplicacion: " + mult);
 	}
+	
+	public void division (){
+		int div= value/value2;
+		System.out.println("Division: " + div);
+	}
 
 	public int getValue() {
 		return value;

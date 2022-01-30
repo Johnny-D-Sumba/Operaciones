@@ -18,6 +18,10 @@ public class Operaciones {
 		operaciones.setValue(4);
 		operaciones.setValue2(8);
 		operaciones.multiplicacion();
+		
+		operaciones.setValue(18);
+		operaciones.setValue2(3);
+		operaciones.division();
 	}
 
 }
