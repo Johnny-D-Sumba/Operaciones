@@ -21,6 +21,11 @@ public class Operacion {
 		int suma= value + value2;
 		System.out.println("Suma: " + suma);
 	}
+	
+	public void resta(){
+		int resta= value + value2;
+		System.out.println("Resta: " + resta);
+	}
 
 	public int getValue() {
 		return value;

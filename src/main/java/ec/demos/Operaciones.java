@@ -11,7 +11,9 @@ public class Operaciones {
 		operaciones.setValue2(15);
 		operaciones.suma();
 		
-		
+		operaciones.setValue(24);
+		operaciones.setValue2(12);
+		operaciones.resta();
 	}
 
 }
