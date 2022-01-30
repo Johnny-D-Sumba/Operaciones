@@ -14,6 +14,10 @@ public class Operaciones {
 		operaciones.setValue(24);
 		operaciones.setValue2(12);
 		operaciones.resta();
+		
+		operaciones.setValue(4);
+		operaciones.setValue2(8);
+		operaciones.multiplicacion();
 	}
 
 }

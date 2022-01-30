@@ -26,6 +26,11 @@ public class Operacion {
 		int resta= value + value2;
 		System.out.println("Resta: " + resta);
 	}
+	
+	public void multiplicacion(){
+		int mult= value + value2;
+		System.out.println("Multiplicacion: " + mult);
+	}
 
 	public int getValue() {
 		return value;
