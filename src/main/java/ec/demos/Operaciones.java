@@ -39,7 +39,7 @@ public class Operaciones {
 		cliente.setNombre("Adrian Reyes");
 		cliente.setDireccion("Av. de la Americas");
 		cliente.setEmail("reyes.a@gmail.com");
-		cliente.setFnacimiento("15/01/2001");
+		cliente.setFnacimiento("15/01/2004");
 		
 		
 		System.out.println(cliente);

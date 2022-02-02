@@ -61,11 +61,12 @@ public class Cliente {
 	}
 	
 	public void edad() {
-		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-		LocalDate fechaNac = LocalDate.parse(fnacimiento, fmt);
-		LocalDate ahora = LocalDate.now();
+		DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		LocalDate fechaNac = LocalDate.parse(fnacimiento, formato);
+		LocalDate fechaact = LocalDate.now();
 		
-		Period periodo = Period.between(fechaNac, ahora);
+		
+		Period periodo = Period.between(fechaNac, fechaact);
 		System.out.printf("Su edad es: %s años, %s meses y %s días",
 		                    periodo.getYears(), periodo.getMonths(), periodo.getDays());
 	}
