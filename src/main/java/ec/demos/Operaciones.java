@@ -6,24 +6,23 @@ public class Operaciones {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hola mundo");
 		
-		Operacion operaciones=new Operacion();
-		operaciones.setValue(12);
-		operaciones.setValue2(15);
-		operaciones.suma();
+		Calculadora calculadora=new Calculadora();
+		calculadora.setValue(18);
+		calculadora.setValue2(24);
+		calculadora.suma();
 		
-		operaciones.setValue(24);
-		operaciones.setValue2(12);
-		operaciones.resta();
+		calculadora.setValue(58);
+		calculadora.setValue2(24);
+		calculadora.resta();
 		
-		operaciones.setValue(4);
-		operaciones.setValue2(8);
-		operaciones.multiplicacion();
+		calculadora.setValue(25);
+		calculadora.setValue2(15);
+		calculadora.modulo();
 		
-		operaciones.setValue(18);
-		operaciones.setValue2(3);
-		operaciones.division();
+		calculadora.setValue(25);
+		calculadora.setValue2(8);
+		calculadora.multiplicacion();
 		
 		Cliente cliente=new Cliente();
 		
